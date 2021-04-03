@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.container {
+    width: 320px;
+    height: auto;
+    border: 1px solid steelblue;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 15px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.container img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#range {
+    width: 90%;
+    margin-top: 15px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls .btn {
+    padding: 5px;
+    font-size: 40px;
+    color: steelblue;
+}
+
+.controls .btn:hover {
+    color: tomato;
+}
+
+.container p {
+    margin-top: 20px;
+    color: darkgray;
+    font-size: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.musicList {
+    width: 320px;
+    height: auto;
+    border: 1px solid steelblue;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.musicList p {
+    text-align: center;
+    padding: 10px;
+    color: steelblue;
+}
+
+.music {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid darkgray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.music:last-child {
+    border: none;
+}
+
+.music-img img{
+    border-radius: 20px;
+    flex: 1;
+    width: 100px;
+}
+
+.music-name{
+    font-size: 15px;
+    flex: 2;
+}
+
+.music-name p {
+    color: tomato;
+}
+
+.credit {
+    text-align: center;
+    color: darkgray;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.credit a {
+    color: tomato;
+    text-decoration: none;
+}

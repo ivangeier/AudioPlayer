@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc1e7b8a14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Audio Player</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="player">
+            <img id="image" src="./Assets/Images/acousticbreeze.jpeg" alt="">
+            <input id="range" type="range" min="0">
+            <div class="controls">
+                <i id="backward" class="fas fa-backward btn"></i>
+                <i id="stop" class="far fa-stop-circle btn"></i>
+                <i id="play" class="far fa-play-circle btn"></i>
+                <i id="forward" class="fas fa-forward btn"></i>
+            </div>
+            <audio id="audio" src="./Assets/Audio/bensound-acousticbreeze.mp3" type="audio/mpeg"></audio>
+        </div>
+        <p>Developed by <a href="">Ivan Geier</a></p>
+    </div>
+
+    <div class="musicList">
+        <p>CHOOSE YOUR SONG</p>
+        <div class="music">
+            <div class="music-img">
+                <img class="albumPhoto" src="./Assets/Images/acousticbreeze.jpeg" alt="">
+            </div>
+            <div class="music-name">
+                <p>Acoustic Breeze | 2:37</p>
+            </div>
+        </div>
+        <div class="music">
+            <div class="music-img">
+                <img class="albumPhoto" src="./Assets/Images/creativeminds.jpeg" alt="">
+            </div>
+            <div class="music-name">
+                <p>Creative Minds | 2:27</p>
+            </div>
+        </div>
+        <div class="music">
+            <div class="music-img">
+                <img class="albumPhoto" src="./Assets/Images/jazzyfrenchy.jpeg" alt="">
+            </div>
+            <div class="music-name">
+                <p>Jazzy Frenchy | 1:44</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <p>Music by <a href="https://www.bensound.com/">Besound</a> | Icons by <a href="https://fontawesome.com/">Font
+                Awesome</a> </p>
+    </div>
+    <script src="./Scripts/script.js"></script>
+</body>
+
+</html>
