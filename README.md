@@ -4,21 +4,21 @@ I create this application to practice audio functions with JavaScript.
 
 You can choose between three musics to play
 
-# Languages
+## Languages
 
 * HTML
 * CSS
 * Javascript
 
-# License
+## License
 
 MIT
 
-# Author
+## Author
 
 Ivan Geier
 
-# Credits
+## Credits
 
 * Icons: [Font Awesome](https://fontawesome.com/)
 * Music:  [Besound](https://www.bensound.com)
