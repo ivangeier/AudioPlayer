@@ -1,4 +1,4 @@
-# Adio Music Payer
+# Audio Music Payer
 
 I create this application to practice audio functions with JavaScript.
 
