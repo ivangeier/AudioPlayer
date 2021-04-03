@@ -4,6 +4,10 @@ I create this application to practice audio functions with JavaScript.
 
 You can choose between three musics to play
 
+## Screenshot
+
+[!alt text](https://github.com/ivangeier/AudioPlayer/blob/master/Assets/Screenshot/Audio%20Player.png)
+
 ## Languages
 
 * HTML
