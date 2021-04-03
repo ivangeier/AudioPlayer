@@ -6,7 +6,7 @@ You can choose between three musics to play
 
 ## Screenshot
 
-[!alt text](https://github.com/ivangeier/AudioPlayer/blob/master/Assets/Screenshot/Audio%20Player.png)
+[!alt_text](https://github.com/ivangeier/AudioPlayer/blob/master/Assets/Screenshot/Audio%20Player.png)
 
 ## Languages
 
